@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: koding-distributed-id-generator
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        group: DEFAULT_GROUP
+        namespace: d5fe86ae-bb85-49b5-8382-67de51c1cadf
+        server-addr: http://192.168.1.3:8848
+        ip: 192.168.1.4          # 关键！必须填写宿主机的局域网 IP
+        port: 8003               # 宿主机映射的端口
+        prefer-ip-address: true  # 使用 IP 替代 hostname
