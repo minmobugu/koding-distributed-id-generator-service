@@ -36,3 +36,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/koding-distributed-id-generator-biz/.flattened-pom.xml
+/.flattened-pom.xml
