@@ -38,3 +38,4 @@ build/
 .DS_Store
 /koding-distributed-id-generator-biz/.flattened-pom.xml
 /.flattened-pom.xml
+/koding-distributed-id-generator-api/.flattened-pom.xml

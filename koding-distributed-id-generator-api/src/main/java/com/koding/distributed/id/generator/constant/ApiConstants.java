@@ -10,5 +10,5 @@ public interface ApiConstants {
     /**
      * 服务名称
      */
-    String SERVICE_NAME = "joker-distributed-id-generator";
+    String SERVICE_NAME = "koding-distributed-id-generator";
 }
