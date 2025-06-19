@@ -8,7 +8,7 @@ spring:
       discovery:
         enabled: true
         group: DEFAULT_GROUP
-        namespace: d5fe86ae-bb85-49b5-8382-67de51c1cadf
+        namespace: f2b75934-f0e3-442d-bfc9-bd9361a140cc
         server-addr: http://192.168.1.3:8848
         ip: 192.168.1.4          # 关键！必须填写宿主机的局域网 IP
         port: 8003               # 宿主机映射的端口
